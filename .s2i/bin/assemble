@@ -23,5 +23,4 @@ else
 fi
 
 source hack/lib/init.sh
-OS_BUILD_PLATFORMS=("${PLATFORM}")
-os::build::build_binaries "cmd/oc"
+make clean build
